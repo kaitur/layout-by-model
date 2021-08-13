@@ -1,10 +1,11 @@
 @media only screen and (min-width: 900px) {
     body {
-        
         max-width: 1440px;
         margin: 0 auto;
     }
-    main>section, footer, header {
+    main > section,
+    footer,
+    header {
         padding: 6% 10% 8% 11%;
     }
     .row {
@@ -13,7 +14,7 @@
     }
     header {
         height: 768px;
-        background: linear-gradient( rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url(/img/bg.png);
+        background: linear-gradient(rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url(../img/bg.png);
         background-position: center;
     }
     .container {
@@ -40,7 +41,7 @@
         justify-content: flex-start;
         align-items: flex-start;
     }
-    .footer-container>div {
+    .footer-container > div {
         width: 50%;
     }
     .main-nav {
@@ -77,11 +78,11 @@
         margin-left: 11%;
         width: 634px;
     }
-    .galery>div {
+    .galery > div {
         height: 100%;
         justify-content: space-between;
     }
-    .galery>div>img {
+    .galery > div > img {
         width: 100%;
         margin-bottom: 7%;
     }
@@ -92,7 +93,7 @@
         width: 55%;
     }
 
-    .link-lists>ul>li {
+    .link-lists > ul > li {
         margin-bottom: 14px;
     }
     .contact a {
@@ -100,7 +101,7 @@
     }
 
     .contact {
-        text-align: center;        
+        text-align: center;
     }
     h2 {
         margin-top: 145px;
@@ -115,12 +116,10 @@
         padding-bottom: 5%;
     }
     .flex-column li {
-        margin-bottom: 2%
+        margin-bottom: 2%;
     }
     /* 
-    ==============================================
-    типографіка
-    ==============================================
+    typography
      */
     body {
         font-size: 18px;
@@ -141,20 +140,15 @@
         text-align: left;
     }
     .signature {
-        font-size: 24px;   
+        font-size: 24px;
     }
     .row p {
-        
-        
         line-height: 167%;
         text-align: justify;
         color: #333333;
     }
     .footer-container a {
-        
-        
         font-size: 18px;
         line-height: 22px;
-        
     }
 }
