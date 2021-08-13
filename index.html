@@ -8,30 +8,34 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <head>
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/png">
+    </head>
     <title>Porto</title>
 </head>
 
 <body>
-    <header class="header">
+    <header  id="header">
         <div class="menu-icon"> &#9776;</div>
         <nav class="main-nav">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </nav>
         <h1>Portofolio</h1>
         <h2>Hi, It’s Théophile Seyrig</h2>
         <div class="signature">Designer from Porto, Portugal</div>
         <div class="header-link">
-            <a href="">Latest works</a>
+            <a href="https://kaitur.github.io/resume-website/">Latest works</a>
         </div>
     </header>
     <main>
-        <section class="row">
+        <section class="row" id="about">
             <h3>About</h3>
             <p>
                 Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus
@@ -46,7 +50,7 @@
             </p>
         </section>
 
-        <section class="row pair-row ">
+        <section class="row pair-row" id="skills">
             <h3>Skills</h3>
             <div class="container">
                 <div class="profile-picture">
@@ -101,30 +105,31 @@
             </div>
         </section>
 
-        <section class="row ">
+        <section class="row" id="portfolio">
             <h3>Portfolio</h3>
             <h4>UX Research</h4>
             <div class="portfolio">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam
-                        massa semper a tincidunt cursus ultricies lectus eget urna.
-                    </p>
-                    <!--!gallary-->
-                    <div class="galery">
-                        <div class="galery-left-column">
-                            <img src="img/Rectangle.png" alt="">
-                            <img src="img/Rectangle (1).png" alt="">
-                        </div>
-                        <div class="galery-right-column">
-                            <img src="img/dom-luis-bridge-porto-carol-japp.png" alt="">
-                            <img src="img/Rectangle (2).png" alt="">
-                        </div> 
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam
+                    massa semper a tincidunt cursus ultricies lectus eget urna.
+                </p>
+                <!--!gallary-->
+                <div class="galery">
+                    <div class="galery-left-column">
+                        <img src="img/Rectangle.png" alt="">
+                        <img src="img/Rectangle (1).png" alt="">
+                    </div>
+                    <div class="galery-right-column">
+                        <img src="img/dom-luis-bridge-porto-carol-japp.png" alt="">
+                        <img src="img/Rectangle (2).png" alt="">
                     </div>
                 </div>
+            </div>
         </section>
 
     </main>
-    <footer>
+
+    <footer class="row pair-row" id="footer">
         <h3>Get in Touch</h3>
         <section class="footer-container">
             <div class="link-lists">

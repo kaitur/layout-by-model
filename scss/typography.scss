@@ -1,0 +1,108 @@
+/*Типография*/
+body {
+    font-family: Libre Franklin;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header a {
+    color: #ffffff;
+}
+
+footer a {
+    font-style: normal;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    text-decoration: none;
+}
+
+header {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.main-nav {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+h2 {
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+h5 {
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.arrow {
+    font-size: 50px;
+}
+
+header {
+    background: linear-gradient(rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url(/img/bgPhone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 275px;
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.row p {
+    line-height: 15px;
+    text-align: justify;
+    color: #333333;
+}
+
+.flex-column li {
+    line-height: 25px;
+}
+
+.diagram {
+    background: #f5d6ab;
+    height: 18px;
+    z-index: 0;
+}
+
+.diagram > div {
+    background: #c66c49;
+    height: 18px;
+    z-index: 1;
+}
